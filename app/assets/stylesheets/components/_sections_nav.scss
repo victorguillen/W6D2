@@ -1,0 +1,25 @@
+.sections-nav {
+  display: flex;
+  flex-direction: column;
+	align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid $light-gray;
+  font-size: 14px;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.sections-nav ul {
+  display: flex;
+}
+
+.sections-nav ul > li{
+  margin: 10px;
+}
+
+.sections-nav ul > li:hover {
+  background-color: $light-gray;
+}
+
+.sections-nav ul > li:last-of-type:hover{
+  text-decoration: underline;
+}
